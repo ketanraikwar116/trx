@@ -62,17 +62,17 @@ if [[ $getreward == "" ]]
   then
     if [[ $getmessage == 'complete full' ]]
 	    then
-	      printf "${kuning}[!]${NC} [User: $uid] Daily Limit Reached Come Back Tomorrow [${kuning}Limit${NC}]\n"
+	      printf "${kuning}[!]${NC} Daily Limit Reached Come Back Tomorrow [${kuning}Limit${NC}]\n"
           exit
           elif [[ $getreg == "FAILED TO REGISTER" ]]
 		  then
 		  printf "${merah}[+]${NC} You Are not Registered\n"
 		  exit
 		  else
-	      printf "${merah}[!]${NC} [User : $uid] [Reward : 0] [${merah}Failed${NC}]\n"
+	      printf "${merah}[!]${NC } [Reward : 0] [${merah}Failed${NC}]\n"
      fi
 else
-  printf "${ijo}[!]${NC} [User : $uid] [Reward : $getreward] [Poins : $getgold] [Completed : $getcomplete] [${ijo}Success${NC}]\n"
+  printf "${ijo}[!]${NC} [Reward : $getreward] [Poins : $getgold] [Completed : $getcomplete] [${ijo}Success${NC}]\n"
  fi
  }
 for (( ; ; ))
