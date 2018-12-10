@@ -69,7 +69,7 @@ if [[ $getreward == "" ]]
 		  printf "${merah}[+]${NC} You Are not Registered\n"
 		  exit
 		  else
-	      printf "${merah}[!]${NC } [Reward : 0] [${merah}Failed${NC}]\n"
+	      printf "${merah}[!]${NC} [Reward : 0] [${merah}Failed${NC}]\n"
      fi
 else
   printf "${ijo}[!]${NC} [Reward : $getreward] [Poins : $getgold] [Completed : $getcomplete] [${ijo}Success${NC}]\n"
